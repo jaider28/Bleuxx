@@ -1,0 +1,340 @@
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+    width: 90%;
+    margin:auto;
+}
+
+header{
+    padding: 9px;
+    background: #1E172F;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header.container .logo{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+header nav ul a {
+    color: rgb(211, 200, 200);
+    text-decoration: none;
+    text-transform: 2px;
+    margin-right: 20px;
+}
+header nav ul{
+    width: 650px;
+}
+
+header nav a:hover,
+header nav a.activo  {
+      color: #FFF;
+}
+
+button{
+    width: 120px;
+    height: 50px;
+    background: linear-gradient( to right,#8640D5 , #047ED5);
+    border-radius: 5px;
+}
+button h1{
+    color: white;
+    font-size: 17px;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+@media only screen and (min-width: 767px) {
+
+}
+.can1{
+    margin-left: 80px;
+}
+.can1 h2{
+    color: white;
+    font-size: 100px;
+}
+.can1 p{
+    color: rgb(211, 204, 204);
+    margin-top: 10%;
+    font-size: 30px;
+}
+
+.old{
+    background: #2E2550;
+    width: 50%;
+    padding: 100px;
+}
+.ale{
+    background-image: url(./img/atras.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    width: 50%;
+    padding: 100px;
+}
+.ale img{
+  margin-left: 30px;
+  width: 222px;
+}
+.btn{
+    margin-top: 10%;
+    display: flex;
+    border-radius: 4px; 
+    margin-left: 80px;
+  
+}
+.btn .to{
+    width: 150px;
+    height: 37px;
+    background: white;
+    color:#F41486;
+    margin: 4px 4px 4px 4px;
+}
+.btn .li{
+    height: 32px;
+    background:  #2E2550;
+    color: white;
+    border: solid 1px;
+    /* margin-right: 10px; */
+    margin-top: 7px;
+}
+@media  screen and (max-width: 320px){
+
+}
+.fon {
+    width: 100%;
+}
+
+.fon .tes{
+    color: #F41486;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.fon .hola {
+    width: 100%;
+    display: flex;
+    margin-top: 100px;
+}
+
+.fon img {
+    width: 30%;
+    margin-left: 20%;
+}
+.alp{
+    margin-top: 50px;
+}
+
+.fon .hola .alp {
+    width: 50%;
+}
+.fon .hola .alp .screen{
+    font-size: 40px;
+    color:  #F41486 ;
+    font-family: monospace;
+    margin-left: 180px;
+}
+.fon .hola .alp p{
+    margin-left: 180px;
+    margin-top: 40px;
+}
+.fon .hola .alp .mar{
+    font-size: 28px;
+    color:#F41486;
+    font-family: monospace;
+    margin-left: 180px;
+    margin-top: 18px;
+}
+.fon .hola .alp .plis{
+    margin-top: 10px;
+}
+.fon .alp i{
+    color: #F41486;
+}
+.blue{
+    height: 100%;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.contenedor{
+    width: 100%;
+    height: 100vh;
+    background-color:#1E172F;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor h4{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:70px;
+    color: white;
+}
+.contenedor .so{
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(212, 207, 207);
+    font-size: 18px;
+}
+
+.card{
+    width: 300px;
+    height: 80%;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius:  4px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 5px 3px 10px rbga(0,0,0,0.2);
+    cursor: default;
+    transition: all 400ms ease;
+}
+.card:hover{
+   box-shadow: 5px 5px 20px rgba(48, 34, 34, 0.4);
+   transform: translateY(-3%);
+}
+
+figure {
+    display: flex;
+    justify-content: center;
+}
+.card .lo{
+    text-align: center;
+    color: #F41486;
+}
+.card .yo{
+    text-align: center;
+}
+.price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 40px;
+    margin-top: 10px;
+    height: 70px;
+    background: rgb(228, 223, 223);
+
+}
+
+.price .free {
+   font-size: 14px;
+   margin-left: 90px;
+}
+.price .fraa{
+    font-size: 14px;
+    margin-left: 120px;
+}
+.price .froo{
+    font-size: 14px;
+    margin-left: 150px;
+}
+.card .m #id{
+    color: #F41486;
+}
+.m{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+.p{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.k{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    font-size: 15px;
+}
+.x {
+    background: linear-gradient(#EB66AB , #F41486);
+    width: 60%;
+    height: 40px;
+}
+.x a{
+    text-decoration: none;
+    color: white;
+}
+.y {
+    background: #8640D5;
+    width: 60%;
+    height: 40px;
+}
+.y a{
+    text-decoration: none;
+    color: white;
+}
+@media  screen and (min-width: 120px) {
+
+}
+
+.ero{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    height: 50px;
+    background: rgb(228, 223, 223);
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+h5{
+    color: #F41486;
+}
+
+.p-footer {
+    width: 382px;
+    display: flex;   
+}
+
+.icon {
+    height: 50px;
+    width: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+ 
+
+
+
+
+
